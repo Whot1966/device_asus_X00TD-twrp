@@ -36,6 +36,10 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.display.config@1.0 \
