@@ -1,0 +1,4 @@
+/system_image   emmc   /dev/block/bootdevice/by-name/system            flags=display="System Image";backup=1;flashimg=1
+/vendor_image   emmc   /dev/block/bootdevice/by-name/vendor            flags=display="Vendor Image";backup=1;flashimg=1
+
+/asusfw         ext4   /dev/block/bootdevice/by-name/asusfw            flags=display="ASUS Firmware";wipeingui

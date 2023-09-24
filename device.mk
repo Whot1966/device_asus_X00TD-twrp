@@ -47,3 +47,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.display.config@1.0 \
     vendor.display.config@1.0.vendor
+
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
